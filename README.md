@@ -1,8 +1,6 @@
 
 # FURIA Engage Hub
 
-![FURIA Engage Hub](https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
-
 ## Visão Geral
 
 FURIA Engage Hub é uma plataforma de engajamento para fãs de e-sports que permite aos usuários ganhar pontos por interagir com o conteúdo da FURIA, completar desafios e resgatar recompensas exclusivas.
