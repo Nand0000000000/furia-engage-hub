@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
 
-## Project info
+# FURIA Engage Hub
 
-**URL**: https://lovable.dev/projects/2b0c4558-2399-4c18-9511-b515b8bd1505
+![FURIA Engage Hub](https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
 
-## How can I edit this code?
+## Visão Geral
 
-There are several ways of editing your application.
+FURIA Engage Hub é uma plataforma de engajamento para fãs de e-sports que permite aos usuários ganhar pontos por interagir com o conteúdo da FURIA, completar desafios e resgatar recompensas exclusivas.
 
-**Use Lovable**
+## Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2b0c4558-2399-4c18-9511-b515b8bd1505) and start prompting.
+### Dashboard Principal
+- Visão geral de pontos do usuário
+- Níveis e progresso
+- Atividades recentes
+- Estatísticas de engajamento
+- Desafios ativos
+- Recompensas disponíveis
 
-Changes made via Lovable will be committed automatically to this repo.
+### Sistema de Pontuação
+- Ganhe pontos por interagir com conteúdo da FURIA
+- Comentários, curtidas, compartilhamentos
+- Assistir transmissões ao vivo e vídeos
+- Participar de enquetes e eventos
 
-**Use your preferred IDE**
+### Desafios
+- Desafios diários
+- Desafios semanais
+- Desafios especiais
+- Acompanhamento de progresso em tempo real
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Recompensas
+- Recompensas digitais (fundos de tela, cupons de desconto)
+- Recompensas físicas (camisetas, equipamentos)
+- Experiências (meet & greet com jogadores)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tecnologias Utilizadas
 
-Follow these steps:
+O projeto foi desenvolvido utilizando:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **React**: Biblioteca JavaScript para construção de interfaces
+- **TypeScript**: Superset de JavaScript com tipagem estática
+- **Tailwind CSS**: Framework CSS utilitário
+- **shadcn/ui**: Biblioteca de componentes React
+- **Lucide Icons**: Biblioteca de ícones
+- **React Router**: Roteamento de páginas
+- **Recharts**: Biblioteca de gráficos e visualizações
+- **React Query**: Gerenciamento de estado e requisições
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Estrutura do Projeto
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Componentes reutilizáveis
+│   ├── ui/              # Componentes UI básicos (shadcn)
+│   ├── ActivityFeed.tsx # Feed de atividades recentes
+│   ├── ChallengesList.tsx # Lista de desafios
+│   ├── EngagementStats.tsx # Estatísticas de engajamento
+│   ├── Header.tsx       # Cabeçalho da aplicação
+│   ├── PointsSummary.tsx # Resumo de pontos do usuário
+│   └── RewardsList.tsx  # Lista de recompensas
+├── pages/               # Páginas da aplicação
+│   ├── Index.tsx        # Página inicial/dashboard
+│   ├── Challenges.tsx   # Página de desafios
+│   ├── Rewards.tsx      # Página de recompensas
+│   └── NotFound.tsx     # Página 404
+├── hooks/               # Hooks customizados
+├── lib/                 # Utilitários e funções auxiliares
+└── App.tsx              # Componente principal com rotas
 ```
 
-**Edit a file directly in GitHub**
+## Rotas
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/`: Dashboard principal
+- `/desafios`: Página de desafios
+- `/recompensas`: Página de recompensas
 
-**Use GitHub Codespaces**
+## Como Executar o Projeto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Clone o repositório:
+   ```
+   git clone <URL_DO_REPOSITORIO>
+   ```
 
-## What technologies are used for this project?
+2. Instale as dependências:
+   ```
+   npm install
+   ```
 
-This project is built with:
+3. Inicie o servidor de desenvolvimento:
+   ```
+   npm run dev
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4. Acesse o projeto em `http://localhost:8080`
 
-## How can I deploy this project?
+## Configuração de Tema
 
-Simply open [Lovable](https://lovable.dev/projects/2b0c4558-2399-4c18-9511-b515b8bd1505) and click on Share -> Publish.
+O projeto utiliza um esquema de cores preto e branco minimalista com suporte a tema claro e escuro.
 
-## Can I connect a custom domain to my Lovable project?
+### Personalização
 
-Yes, you can!
+O tema pode ser personalizado editando os arquivos:
+- `tailwind.config.ts`: Configurações do Tailwind CSS
+- `src/index.css`: Variáveis CSS para cores e temas
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Construção para Produção
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Para criar uma versão de produção:
+
+```
+npm run build
+```
+
+## Licença
+
+Este projeto é proprietário e confidencial. Todos os direitos reservados à FURIA Esports.
