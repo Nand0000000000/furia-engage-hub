@@ -10,7 +10,7 @@ import {
   ResponsiveContainer 
 } from "recharts";
 import { Badge } from "@/components/ui/badge";
-import { Activity, Star } from "lucide-react";
+import { Activity, Star, Trophy } from "lucide-react";
 
 interface EngagementData {
   date: string;

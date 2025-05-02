@@ -70,25 +70,25 @@ const Header = () => {
                   <p className="text-sm text-muted-foreground">fan@example.com</p>
                 </div>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem as="button" className="cursor-pointer flex justify-between items-center">
+                <DropdownMenuItem className="cursor-pointer flex justify-between items-center">
                   <span>Nível</span>
                   <Badge variant="outline" className="ml-2 bg-primary/10">
                     Nível 12
                   </Badge>
                 </DropdownMenuItem>
-                <DropdownMenuItem as="button" className="cursor-pointer flex justify-between items-center">
+                <DropdownMenuItem className="cursor-pointer flex justify-between items-center">
                   <span>Pontos</span> 
                   <span className="font-medium">1,245</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem as="button" className="cursor-pointer">
+                <DropdownMenuItem className="cursor-pointer">
                   <Link to="/perfil" className="flex w-full">Meu Perfil</Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem as="button" className="cursor-pointer">
+                <DropdownMenuItem className="cursor-pointer">
                   <Link to="/configuracoes" className="flex w-full">Configurações</Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem as="button" className="cursor-pointer text-destructive">
+                <DropdownMenuItem className="cursor-pointer text-destructive">
                   Sair
                 </DropdownMenuItem>
               </DropdownMenuContent>
