@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -64,11 +63,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				furia: {
-					purple: '#8B5CF6',
-					lightPurple: '#D6BCFA',
-					orange: '#F97316',
-					darkBlue: '#1A1F2C',
-					gray: '#8E9196'
+					purple: '#000000',
+					lightPurple: '#444444',
+					orange: '#000000',
+					darkBlue: '#000000',
+					gray: '#888888'
 				}
 			},
 			borderRadius: {
